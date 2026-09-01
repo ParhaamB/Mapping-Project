@@ -1,0 +1,25 @@
+# Python files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Downloaded source data
+*.xlsx
+*.zip
+*.geojson
+*.csv
+
+# Extracted folders
+ts054_extracted/
+ts001_extracted/
+police_crime_2025/
+
+# Generated map files
+#*.html
+
+# Local configuration and secrets
+.env
